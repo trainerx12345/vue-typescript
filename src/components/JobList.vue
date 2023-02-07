@@ -5,7 +5,7 @@
       <li v-for="job in orderedJobs" :key="job.id">
         <h2>{{ job.title }} in {{ job.location }}</h2>
         <div class="salary">
-          <p>{{ job.salary }} pesos</p>
+          <p>₱ {{ job.salary }}</p>
         </div>
         <div class="description">
           <p>
