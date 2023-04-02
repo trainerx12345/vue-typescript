@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, toRefs, ref } from "vue";
+import { defineComponent, reactive, toRefs, ref  } from "vue";
 import Job from "@/types/Jobs";
 import JobList from "@/components/JobList.vue";
 import OrderTerm from "@/types/OrderTerm";
